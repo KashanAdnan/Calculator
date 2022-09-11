@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-image: linear-gradient(#6d8bf9,#6e4788);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    width: 340px;
+    height: 608px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc .calc-body{
+    width: 97%;
+    height: 97%;
+    background-image: linear-gradient(#6d8bf9,#6e4788);
+    box-shadow: -10px -5px 40px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+}
+.calc .calc-body .calc-notch{
+    width: 40%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-left: 100px; 
+    margin-top: -5px;
+}
+.calc .calc-body .calc_display{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.calc .calc-body .calc_display input{
+    width: 100%;
+    height: 100%;
+    font-size: 75px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    text-align: right;
+}
+.calc .calc-body .calc_display input::placeholder{
+    color: #fff;
+}
+
+.calc .calc-body .calc_button{
+    width: 100%;
+    height: 67%;
+    background-color: rgba(255, 255, 255, 0.05);
+} 
+.calc .calc-body .calc_button .btn{
+    width: 18%;
+    height: 15%;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    margin-bottom: 7px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: lighter;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.calc .calc-body .calc_button .zero_btn{
+    width: 40%;
+    border-radius: 25px;
+}
+.calc .calc-body .calc_button .equal_to{
+    background-image: linear-gradient(#921A7c, #8B3390);
+}
+
+
+
+
+
+
